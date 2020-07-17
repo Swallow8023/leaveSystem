@@ -1,0 +1,31 @@
+<!--pages/signUp/studentSignUp/studentSignUp.wxml-->
+<view class="container">
+    <view class="page__hd">
+        <text class="page_title">学员绑定</text>
+    </view>
+
+    <i-input title = "学号" type="nmumber" maxlength="8" placeholder="请输入学号" focus="{{true}}" bindinput="setID"/>
+
+    <i-input title="姓名" type="text" maxlength="8" placeholder="请输入姓名" bindinput="setName"/>
+
+    <view>单位</view>
+    <picker mode="multiSelector" bindchange="sUnitPickerChange" bindcolumnchange="sUnitPickerColumnChange" 
+    value="{{sIndex}}" range="{{sUnit}}">
+        <view class="picker">
+            当前选择：{{sUnit[0][sIndex[0]]}}，{{sUnit[1][sIndex[1]]}}
+        </view>
+    </picker>
+
+    <i-input title="指导老师" type="text" maxlength="8" placeholder="请输入指导老师姓名" bindinput="setTutor"/>
+    
+    <view>指导老师单位</view>
+    <picker mode="multiSelector" bindchange="tUnitPickerChange" bindcolumnchange="tUnitPickerColumnChange" 
+    value="{{tIndex}}" range="{{tUnit}}">
+        <view class="picker">
+            当前选择：{{tUnit[0][tIndex[0]]}}，{{tUnit[1][tIndex[1]]}}
+        </view>
+    </picker>
+
+    <i-button bindtap = "bind" type="success">使用微信绑定</i-button>
+
+</view>

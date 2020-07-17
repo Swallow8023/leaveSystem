@@ -1,0 +1,6 @@
+<!--pages/start/start.wxml-->
+<view class="container">
+    <button bindtap = "amStudent">我是学生</button>
+    <button bindtap = "amTeacher">我是教员</button>
+    <button bindtap = "amTeamCadres">我是队干部</button>
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "学生数据绑定",
+  "usingComponents": {
+    "i-input": "../../../dist/input/index",
+    "i-button": "../../../dist/button/index"
+  }
+}

@@ -1,0 +1,7 @@
+<!--pages/hello/hello.wxml-->
+<text>pages/hello/hello.wxml</text>
+<view >
+    <icon class="iconfont icon-xueyuanguanli"></icon>
+    <icon class="iconfont icon-iconfontdaoshi"></icon>
+    <icon class="iconfont icon-xiaojiaguanli"></icon>
+</view>

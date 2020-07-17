@@ -1,0 +1,54 @@
+{
+  "pages": [
+    
+    "pages/start/start",
+    "pages/signUp/studentSignUp/studentSignUp",
+    
+    "pages/signUp/teacherSignUp/teacherSignUp",
+    "pages/signUp/teamCadresSignUp/teamCadresSignUp",
+    "pages/hello/hello",
+    "pages/example1/example1",
+
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "研究生请销假系统",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+
+  "tarBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+
+    "list": [{
+      "pagePath": "pages/",
+      "iconPath": "images/xxx.png",
+      "selectedIconPath": "images/xxx_HL.png",
+      "text":""
+    }, {
+      "pagePath": "pages/",
+      "iconPath": "images/xxx.png",
+      "selectedIconPath": "images/xxx_HL.png",
+      "text":""
+    }]
+  }
+}
